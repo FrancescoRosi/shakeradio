@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RIP Shakeradio</title>
+  <meta property="og:title" content="RIP Shakeradio">
+  <meta property="og:site_name" content="Shakeradio">
+  <meta property="og:url" content="https://shakeradio.ga">
+  <meta property="og:description" content="Sarà stato solo... un sogno distante?">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="shakeradio.ga">
+  <meta property="twitter:url" content="https://shakeradio.ga">
+  <meta name="twitter:title" content="Shakeradio">
+  <meta name="twitter:description" content="Sarà stato solo... un sogno distante?">
+  <style>
+    html {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    *:not(i) {
+      font-family: "Inter", sans-serif;
+    }
+
+    html {
+      background-color: black;
+      color: white;
+    }
+
+    a,
+    span {
+      color: #d6d6d6;
+    }
+
+    h1,
+    h3,
+    h4,
+    div,
+    iframe {
+      max-width: calc(100vw - 64px);
+    }
+
+    img {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <picture>
+    <source type="image/webp" srcset="/assets/images/rip.webp">
+    <source type="image/png" srcset="/assets/images/rip.png">
+    <img src="/assets/images/rip.png" loading="lazy">
+  </picture>
+</body>
+
+</html>
